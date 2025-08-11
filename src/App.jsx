@@ -147,7 +147,7 @@ function App() {
       {/* wine section */}
       <section className="py-[90px]">
         <div className="grid grid-cols-3 w-9/10 gap-[15px] m-auto">
-          <div className="  p-4 border-1 border-[#66666639]  rounded-[10px]">
+          <div className="  p-4 border-1 border-[#66666639] shadow-[7px_7px_10px_rgba(0,0,0,0.25)] rounded-[10px]">
             <div className=" mb-[20px]">
               <img src={truck} alt="" className="rounded-[8px]" />
             </div>
@@ -159,7 +159,7 @@ function App() {
             </p>
             <p className=" font-medium text-[#666666]">Learn More</p>
           </div>
-          <div className=" p-4 border-1 border-[#66666639]  rounded-[10px]">
+          <div className=" p-4 border-1 border-[#66666639] shadow-[7px_7px_10px_rgba(0,0,0,0.25)]  rounded-[10px]">
             <div className=" mb-[20px]">
               <img src={steak} alt="" className="rounded-[8px]" />
             </div>
@@ -169,9 +169,9 @@ function App() {
               Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh
               urna
             </p>
-            <p className="font-medium text-[#666666]">Learn More</p>
+            <p className="font-medium text-[#666666] ">Learn More</p>
           </div>
-          <div className=" p-4 border-1 border-[#66666639]  rounded-[10px]">
+          <div className=" p-4 border-1 shadow-[7px_7px_10px_rgba(0,0,0,0.25)] border-[#66666639]  rounded-[10px]">
             <div className=" mb-[20px]">
               <img src={wine} alt="" className="rounded-[8px]" />
             </div>
@@ -410,7 +410,7 @@ function App() {
       </section>
 
       {/* testomonial */}
-      <section className="py-[90px]  border-b-1 ">
+      <section className="py-[90px]  border-b-1 border-[#66666639] ">
         <div>
           <h1 className={d}>Customers Say</h1>
           <p className={e}>Review</p>
@@ -423,12 +423,12 @@ function App() {
               className="w-full h-full rounded-[100%] border-4 border-red-500 "
             />
           </div>
-          <div className=" w-8/10 m-auto flex items-center justify-between">
+          <div className=" m-auto flex items-center justify-between">
             <div className="rotate-[180deg]">
-             <svg
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="60"
-                height="60"
+                width="40"
+                height="40"
                 viewBox="0 0 50 50"
               >
                 <g
@@ -443,7 +443,7 @@ function App() {
               </svg>
             </div>
             <div className="text-center mt-[33px]">
-              <p className="text-center text-[18px]">
+              <p className="text-center text-[18px] w-7/10 m-auto">
                 “ We are lorem ipsum dolor sit amet, consectetur adipiscing
                 elit. Aenean tellus sem, mattis in pre-tium nec, fermentum
                 viverra dui ”
@@ -507,8 +507,8 @@ function App() {
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="60"
-                height="60"
+                width="40"
+                height="40"
                 viewBox="0 0 50 50"
               >
                 <g
@@ -544,7 +544,7 @@ function App() {
           <p className={e}>The Blog</p>
         </div>
         <div className="grid grid-cols-3 w-9/10 gap-[15px] m-auto">
-          <div className="  p-4 border-1 border-[#66666639]  rounded-[10px] ">
+          <div className="  p-4 border-1  shadow-[7px_7px_10px_rgba(0,0,0,0.25)] border-[#66666639]  rounded-[10px] ">
             <div className=" mb-[20px]">
               <img src={blog} alt="" className="rounded-[8px]" />
             </div>
@@ -556,7 +556,7 @@ function App() {
             </p>
             <p className="">Learn More</p>
           </div>
-          <div className=" p-4 border-1 border-[#66666639]  rounded-[10px] ">
+          <div className=" p-4 border-1 border-[#66666639] shadow-[7px_7px_10px_rgba(0,0,0,0.25)] rounded-[10px] ">
             <div className=" mb-[20px]">
               <img src={blo} alt="" className="rounded-[8px]" />
             </div>
@@ -568,7 +568,7 @@ function App() {
             </p>
             <p className="">Learn More</p>
           </div>
-          <div className=" p-4 border-1 border-[#66666639]  rounded-[10px]">
+          <div className=" p-4 border-1 border-[#66666639] shadow-[7px_7px_10px_rgba(0,0,0,0.25)] rounded-[10px]">
             <div className=" mb-[20px]">
               <img src={bl} alt="" className="rounded-[8px]" />
             </div>
@@ -675,7 +675,7 @@ function App() {
             </div>
           </div>
           <div className="p-[14px]">
-            <div className="text-white text-[24px] font-medium mb-[30px]">
+            <div className="text-white text-[24px] font-medium mb-[25px]">
               Latest twitter
             </div>
             <div className="mb-[20px]">
@@ -696,14 +696,14 @@ function App() {
                 <div className="text-red-500 font-light"> @colorlib</div>
               </div>
 
-              <div className="text-[#666666] mb-[10px] font-light">
+              <div className="text-[#666666] mb-[10px] text-[15px] font-light">
                 Activello is a good option. It has a slider built into that
                 displays the featured image in the slider.
                 <samp className="text-red-500 font-light">
                   https://buff.ly/2zaSfAQ
                 </samp>
               </div>
-              <div className="text-[#666666]">21 Dec 2017</div>
+              <div className="text-[#666666] text-[15px]">21 Dec 2017</div>
             </div>
             <div>
               <div className="flex items-center  mb-[5px]  ">
@@ -722,14 +722,14 @@ function App() {
                 </div>
                 <div className="text-red-500 font-light"> @colorlib</div>
               </div>
-              <div className="text-[#666666] mb-[10px] font-light">
+              <div className="text-[#666666] mb-[10px] font-light text-[15px]">
                 Activello is a good option. It has a slider built into that
-                displays
+                displays.
                 <samp className="text-red-500 font-light">
-                  https://buff.ly/2zaSfAQ
+                   https://buff.ly/2zaSfAQ
                 </samp>
               </div>
-              <div className="text-[#666666]">21 Dec 2017</div>
+              <div className="text-[#666666] text-[15px]">21 Dec 2017</div>
             </div>
           </div>
           <div className="pl-[14px]">
