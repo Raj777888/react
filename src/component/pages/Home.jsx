@@ -1,10 +1,10 @@
 import React from "react";
-import Hero from "../Page component/home/Hero";
-import Intro from "../Page component/home/intro";
-import Search from "../Page component/home/Search";
-import Card from "../Page component/home/Card";
-import Testomonials from "../Page component/home/Testomonials";
-import Besttips from "../Page component/home/besttips";
+import Hero from "../Pagecomponent/home/Hero";
+import Intro from "../Pagecomponent/home/Intro";
+import Search from "../Pagecomponent/home/Search";
+import Card from "../Pagecomponent/home/Card";
+import Testomonials from "../Pagecomponent/home/Testomonials";
+import Besttips from "../Pagecomponent/home/Besttips";
 import background from "../../assets/background.jpg"
 
 

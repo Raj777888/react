@@ -1,13 +1,13 @@
 import NavBar from "../Nav/NavBar";
 import Footer from "../Nav/footer";
 
-import Hero from "../Page component/home/Hero";
+import Hero from "../Pagecomponent/home/Hero";
 import abouthero from "../../assets/abouthero.jpg";
-import Search from "../Page component/home/Search";
-import Few from "../Page component/about/few";
-import Icons from "../Page component/about/Icons";
-import Choice from "../Page component/about/Choice";
-import Team from "../Page component/about/Team";
+import Search from "../Pagecomponent/home/Search";
+import Few from "../Pagecomponent/about/few";
+import Icons from "../Pagecomponent/about/Icons";
+import Choice from "../Pagecomponent/about/Choice";
+import Team from "../Pagecomponent/about/Team";
 // import { useState } from "react";
 import Button from "../Button";
 function About() {
