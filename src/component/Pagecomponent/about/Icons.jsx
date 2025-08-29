@@ -1,6 +1,6 @@
 import React from "react";
 import mountain from "../../../assets/mountain.svg";
-import Island from "../../../assets/Island.svg";
+import Island from "../../../assets/island.svg";
 import camera from "../../../assets/camera.svg";
 import boat from "../../../assets/boat.svg";
 function Icons() {
