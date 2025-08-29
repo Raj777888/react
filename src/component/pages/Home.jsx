@@ -5,9 +5,7 @@ import Search from "../Page component/home/Search";
 import Card from "../Page component/home/Card";
 import Testomonials from "../Page component/home/Testomonials";
 import Besttips from "../Page component/home/besttips";
-import Footer from "../Nav/footer";
 import background from "../../assets/background.jpg"
-import NavBar from "../Nav/NavBar";
 
 
 function Home() {

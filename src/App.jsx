@@ -4,6 +4,7 @@ import About from "./component/pages/About";
 import Home from "./component/pages/Home";
 import NavBar from "./component/Nav/NavBar";
 import Layout from "./component/hoc/Layout";
+import News from "./component/pages/News";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route element={<Layout/>}>
         <Route path="/" element={<Home/>} />
         <Route path="/About" element={<About/>} />
+        <Route path="/news" element={<News/>} />
         </Route>
       </Routes>
     </div>

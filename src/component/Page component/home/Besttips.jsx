@@ -33,12 +33,9 @@ function Besttips() {
     },
   ];
 
-  // first item = featured
-  // const [featured, ...a] = a;
 
   return (
     <div className="grid grid-cols-[1.5fr_1fr] w-8/10 m-auto gap-10 py-[90px]">
-      {/* Left side: list of smaller news */}
       <div className=" space-y-5">
         {a.map((val, i) => (
           <div key={i} className="grid grid-cols-2 border-[#6d6d6d2c] shadow-md border-[2px] py-[10px] rounded-[10px]">
@@ -64,7 +61,6 @@ function Besttips() {
         ))}
       </div>
 
-      {/* Right side: featured big article */}
       <div className=" m-auto px-[15px]">
       <div className=" w-[360px] m-auto ">
         <img src={travello} alt="" className="h-[100%] m-auto object-cover"/>

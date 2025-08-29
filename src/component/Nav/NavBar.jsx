@@ -17,7 +17,7 @@ function NavBar() {
     },
     {
       title: "News",
-      path: "/about",
+      path: "/news",
 
     },
     {
