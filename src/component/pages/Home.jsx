@@ -11,7 +11,6 @@ import background from "../../assets/background.jpg"
 function Home() {
   return (
     <div>
-      {/* <NavBar/> */}
       <Hero image={background}
       height="833px" description="Let us take you away"/>
       <Search />
@@ -19,7 +18,6 @@ function Home() {
       <Card/>
       <Testomonials/>
       <Besttips/>
-      {/* <Footer/>  */}
     </div>
   );
 }

@@ -1,5 +1,3 @@
-import NavBar from "../Nav/NavBar";
-import Footer from "../Nav/footer";
 
 import Hero from "../Pagecomponent/home/Hero";
 import abouthero from "../../assets/abouthero.jpg";
